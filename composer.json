@@ -1,0 +1,31 @@
+{
+    "name": "dignityinside/translithelper",
+    "description": "An easy to use helper for translate russian to latin letters",
+    "keywords": [
+        "php",
+        "translit"
+    ],
+    "homepage": "https://github.com/dignityinside/translithelper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Schilling",
+            "email": "dignityinside@gmail.com",
+            "homepage": "https://github.com/dignityinside",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/dignityinside/translithelper/issues",
+        "source": "https://github.com/dignityinside/translithelper"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dignity\\": "src"
+        }
+    }
+}
